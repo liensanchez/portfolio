@@ -17,32 +17,32 @@
           <ul class="nav__list grid">
             <li class="nav__item">
               <a href="#home" class="nav__link">
-                <i class="uil uil-home"></i>Home
+                <i class="uil uil-home nav__icon"></i>Home
               </a>
             </li>
             <li class="nav__item">
               <a href="#about" class="nav__link">
-                <i class="uil uil-user"></i>About me
+                <i class="uil uil-user nav__icon"></i>About me
               </a>
             </li>
             <li class="nav__item">
               <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt"></i>Skills
+                <i class="uil uil-file-alt nav__icon"></i>Skills
               </a>
             </li>
             <li class="nav__item">
               <a href="#services" class="nav__link">
-                <i class="uil uil-briefcase"></i>Services
+                <i class="uil uil-briefcase nav__icon"></i>Services
               </a>
             </li>
             <li class="nav__item">
               <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery"></i>Portfolio
+                <i class="uil uil-scenery nav__icon"></i>Portfolio
               </a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">
-                <i class="uil uil-message"></i>Contact
+                <i class="uil uil-message nav__icon"></i>Contact
               </a>
             </li>
           </ul>
@@ -56,6 +56,80 @@
     </nav>
   </header>
   <!--Main-->
+  <main class="main">
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/lien-silvio-sanchez-b988b4158/" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin"></i>
+            </a>
+
+            <a href="https://twitter.com/liendeveloper" target="_blank" class="home__social-icon">
+              <i class="uil uil-twitter"></i>
+            </a>
+
+            <a href="https://dribbble.com/liendeveloper" target="_blank" class="home__social-icon">
+              <i class="uil uil-dribbble"></i>
+            </a>
+
+            <a href="https://github.com/liensanchez" target="_blank" class="home__social-icon">
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
+
+          <div class="home__img">
+            <?xml version="1.0" standalone="no"?>
+            <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path fill="" d="M35.5,-63.7C47.2,-54.6,58.9,-47.7,61.8,-37.5C64.7,-27.2,58.7,-13.6,59.6,0.5C60.6,14.7,68.4,29.4,65.5,39.5C62.6,49.6,48.8,55.2,36.1,63.1C23.4,71.1,11.7,81.5,-1.1,83.4C-13.9,85.3,-27.8,78.8,-37.9,69.3C-47.9,59.8,-54.1,47.3,-56.9,35.3C-59.6,23.2,-59,11.6,-58.7,0.2C-58.4,-11.3,-58.5,-22.5,-55.3,-33.9C-52.2,-45.3,-45.8,-56.8,-36.1,-67.1C-26.3,-77.4,-13.2,-86.4,-0.7,-85.3C11.8,-84.2,23.7,-72.8,35.5,-63.7Z" transform="translate(100 100)" />
+              <image class="home__blob-img" x='40' y='5' xlink:href="assets/img/perfil.png"/>
+            </svg>
+          </div>
+        
+          <div class="home__data">
+            <h1 class="home__tittle">Hi, I'm Lien</h1>
+            <h3 class="home__subtitle">Junior FrontEnd developer</h3>
+            <p class="home__description">I'm a young FrontEnd developer looking for my first experience</p>
+            <a href="#contact" class="button button--flex">
+              Contact Me<i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="setion__subtitle">My introduction</span>
+      <div class="about__container container grid">
+        <img src="assets/img/webdev.png" alt="" class="about__img">
+        <div class="about__data">
+          <p class="about__description">
+            Web developer, currently studying to become a Full Stack developer.</p>
+            <dic class="about__info">
+              <div>
+                <span class="about__info-title">9/10</span>
+                <span class="about__info-name">Final <br> Proyect</span>
+              </div>
+              <div class="about__buttons">
+                <a download="" href="assets/pdf/CV-Sanchez-FrontEnd.pdf" class="button button--flex">
+                  Download CV<i class="uil uil-file-download button__icon"></i>
+                </a>
+              </div>
+            </dic>
+        </div>
+      </div>
+    </section>
+    
+
+
+  </main>
   <!--footer-->
   <!--scrolltop-->
   <!--swiper js-->
