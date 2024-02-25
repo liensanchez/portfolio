@@ -114,7 +114,7 @@ export default {
                 <div class="navbar-center">
                     <button>Projects</button>
                     <button>Technologies</button>
-                    <button>About me</button>
+                    <button>Contact me</button>
                 </div>
 
                 <div class="navbar-right">
