@@ -23,7 +23,7 @@ ol,
 ul,
 a{
   font-family: 'Inter', sans-serif;
-  color: #F6F8FC;
+  color: #F5F3EB;
 }
 
 .custom-container {
